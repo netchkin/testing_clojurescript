@@ -1,16 +1,18 @@
 # demo
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+created using [this guide](http://blog.testdouble.com/posts/2016-01-21-isomorphic-clojurescript.html)
 
 ## Usage
 
 FIXME: explanation
 
-    $ java -jar demo-0.1.0-standalone.jar [args]
+To build, use
+    
+    lein cljsbuild once server
+
+To run, use
+
+    node resources/public.js/server-side/server.js
 
 ## Options
 
@@ -22,15 +24,7 @@ FIXME: listing of options this app accepts.
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Does not seem to compile well under windows, see [this](https://github.com/testdouble/feedback/issues/22)
 
 ## License
 
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
