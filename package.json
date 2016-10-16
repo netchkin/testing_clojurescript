@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "source-map-support": "0.4.3",
+    "ws": "0.8.1"
+  }
+}
